@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
+  padding: 8%;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+button {
+  color: #dd1264;
+  width: auto;
+  padding: 20px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container-click {
+  background-color: white;
+  height: 20%;
+  width: auto;
+  color: black;
+  font-family: roboto;
+  border: 0px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.heading {
+  color: black;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10%;
+}
